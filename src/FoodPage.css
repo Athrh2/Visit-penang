@@ -1,0 +1,90 @@
+/* Overall Page Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://i.pinimg.com/736x/3e/c8/71/3ec8717249970a4a86317a6fa1bcdd75.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Main Container */
+.food-page {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for depth */
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Header Styling */
+.food-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #0e0d0d;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Description Paragraph */
+.food-page p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Food Item Card */
+.food-item {
+    margin-bottom: 40px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Food Item */
+.food-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Food Image Styling */
+.food-item img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Food Title */
+.food-item h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Food Description */
+.food-item p {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Food Links */
+.food-item a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #ff6f61;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+    margin-right: 20px; /* Added space between links */
+}
+
+.food-item a:hover {
+    color: #d9544f;
+    border-bottom: 2px solid #d9544f;
+}
